@@ -15,9 +15,10 @@ The day had two stories above all others:
 - **The Gulf.** Iran attacked Kuwait and Bahrain after US strikes on an island in
   the Strait of Hormuz, widening the war over the Strait.
 
-Round 2 plate: the Gulf drawn as a map plate, with the launch site inside Iran and three
-trajectories running to Kuwait City and Bahrain, and the Beijing summit carried by the
-headline. The plate gives those two the top half. Beneath them: Democrats nominating Hakeem
+The plate is a light front page rather than a dark map, because the two earlier versions were
+dark and the judge ranked them in the bottom tenth. One sentence carries both lead stories; the
+illustration beneath it puts the launch site inside Iran and three trajectories running across
+the Strait to Kuwait, Bahrain and Qatar. Beneath them: Democrats nominating Hakeem
 Jeffries for Speaker with the Alaska seat flipping the Senate to 56–44; Nvidia's
 sales soaring while the board keeps Huang out and Waymo pulls its robotaxis off
 US freeways; and critics calling GTA 6 a masterpiece hours before its launch.
