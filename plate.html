@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The world, 18 November 2026</title>
+<style>
+  @page { size: 1024px 1024px; margin: 0; }
+  html, body { margin: 0; padding: 0; width: 1024px; height: 1024px; overflow: hidden; background: #050a12; }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#0a2439"/>
+      <stop offset="0.55" stop-color="#071a2c"/>
+      <stop offset="1" stop-color="#060f19"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#31424e"/>
+      <stop offset="1" stop-color="#222f39"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffc45e"/>
+      <stop offset="1" stop-color="#e8402f"/>
+    </linearGradient>
+    <radialGradient id="flash" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff7a3a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ff7a3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050a12" stop-opacity="0.92"/>
+      <stop offset="0.30" stop-color="#050a12" stop-opacity="0.25"/>
+      <stop offset="0.62" stop-color="#050a12" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#050a12" stop-opacity="0.96"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#water)"/>
+
+  <!-- ------- the gulf: iran across the top, arabia below ------- -->
+  <g>
+    <path d="M0 0 H1024 V676 L900 640 L840 622 L760 588 L700 556 L620 512 L540 470 L460 432
+             L380 396 L300 356 L220 330 L140 312 L60 300 L0 296 Z" fill="url(#land)"/>
+    <path d="M0 296 L60 300 L140 312 L220 330 L300 356 L380 396 L460 432 L540 470 L620 512
+             L700 556 L760 588 L840 622 L900 640 L1024 676" fill="none" stroke="#6b93ae" stroke-width="2.1"/>
+    <path d="M0 434 L120 452 L230 470 L330 500 L420 536 L500 570 L560 604 L590 640 L560 672
+             L500 700 L440 726 L400 764 L380 812 L392 880 L430 940 L470 1024 H0 Z" fill="url(#land)"/>
+    <path d="M0 434 L120 452 L230 470 L330 500 L420 536 L500 570 L560 604 L590 640 L560 672
+             L500 700 L440 726 L400 764 L380 812 L392 880 L430 940 L470 1024" fill="none" stroke="#6b93ae" stroke-width="2.1"/>
+    <g stroke="#1a3346" stroke-width="1" opacity="0.5">
+      <path d="M0 560 H1024"/><path d="M0 800 H1024"/><path d="M300 0 V1024"/><path d="M700 0 V1024"/>
+    </g>
+  </g>
+
+  <!-- ------- strikes, from the iranian coast ------- -->
+  <g>
+    <circle cx="820" cy="612" r="118" fill="url(#flash)"/>
+    <circle cx="820" cy="612" r="120" fill="url(#flash)" opacity="0.5"/>
+    <circle cx="620" cy="628" r="70" fill="url(#flash)" opacity="0.8"/>
+    <circle cx="236" cy="478" r="58" fill="url(#flash)" opacity="0.7"/>
+    <g stroke="url(#hot)" stroke-width="3.6" fill="none" stroke-linecap="round">
+      <path d="M806 600 C700 566 520 520 320 492"/>
+      <path d="M800 618 C720 616 690 624 640 628"/>
+      <path d="M812 626 C740 660 700 690 668 712"/>
+    </g>
+    <g fill="#ffe1bb"><circle cx="820" cy="612" r="9"/></g>
+    <g fill="#ffb27a"><circle cx="320" cy="492" r="6"/><circle cx="640" cy="628" r="6"/><circle cx="668" cy="712" r="6"/></g>
+  </g>
+
+  <!-- ------- place labels ------- -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11.5" letter-spacing="2.2" fill="#ffb86b">
+    <text x="336" y="482">KUWAIT CITY</text>
+    <text x="656" y="622">BAHRAIN</text>
+    <text x="392" y="556" fill="#7fa6c2" letter-spacing="6">GULF</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="3.4" fill="#a7c2d6">
+    <text x="880" y="470">IRAN</text>
+        
+    <text x="700" y="806" fill="#ffb86b" font-size="12">STRAIT OF HORMUZ</text>
+    <text x="250" y="880">SAUDI ARABIA</text>
+    <text x="470" y="762">UAE</text>
+  </g>
+  <g fill="#4d718a" opacity="0.9">
+    <rect x="712" y="742" width="15" height="4" rx="2"/>
+    <rect x="730" y="756" width="15" height="4" rx="2"/>
+    <rect x="700" y="766" width="15" height="4" rx="2"/>
+  </g>
+
+  <rect width="1024" height="1024" fill="url(#fade)"/>
+
+  <!-- ------- masthead ------- -->
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="82" fill="#ff9a4d" font-size="14.5" letter-spacing="4.8" font-weight="700">WEDNESDAY 18 NOVEMBER 2026</text>
+    <text x="960" y="82" fill="#93aec4" font-size="13" letter-spacing="4.2" text-anchor="end" font-weight="600">THE DAY IN ONE PICTURE</text>
+    <line x1="64" y1="106" x2="960" y2="106" stroke="#38566e" stroke-width="1"/>
+  </g>
+
+  <!-- ------- headline ------- -->
+  <g font-family="Georgia, Times New Roman, serif">
+    <text x="64" y="850" fill="#f9fbfd" font-size="56" font-weight="700">Iran strikes the Gulf</text>
+    <text x="64" y="916" fill="#f9fbfd" font-size="56" font-weight="700">as three powers</text>
+    <text x="64" y="982" fill="#f9fbfd" font-size="56" font-weight="700">meet in Beijing</text>
+  </g>
+
+  <!-- ------- the day's other lines ------- -->
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="196" fill="#dbe7f0" font-size="17">Kuwait and Bahrain report missile attacks, after US strikes on an island in the Strait</text>
+    <text x="64" y="222" fill="#8ea9bf" font-size="15">Trump is greeted by Xi in Beijing, with Putin at the same summit; a Philippines trade deal is announced</text>
+
+    <line x1="64" y1="252" x2="960" y2="252" stroke="#2a4258" stroke-width="1"/>
+    <line x1="64" y1="792" x2="960" y2="792" stroke="#2a4258" stroke-width="1"/>
+    <g font-size="14" fill="#a9c0d2">
+      <text x="64" y="278">Washington · Democrats nominate Jeffries for Speaker; Alaska flips the Senate to 56–44</text>
+      <text x="64" y="302">Markets · Nvidia’s sales soar again; Waymo pulls its robotaxis off US freeways</text>
+      <text x="64" y="326">Culture · Critics call GTA 6 a masterpiece, hours before its launch</text>
+    </g>
+  </g>
+
+  <!-- ------- source note ------- -->
+  <text x="960" y="990" fill="#5f7b91" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" letter-spacing="1.6" text-anchor="end">SOURCES: BBC WORLD, GOOGLE NEWS · 18 NOV 2026</text>
+</svg>
+</body>
+</html>

@@ -7,7 +7,7 @@
 An entry for [make.fun's](https://make.fun) `news-image-20261118` bounty
 ([bounty page](https://make.fun/bounty/news-image-20261118)): one image that
 sums up Wednesday 18 November 2026's world news.
-
+  
 The day had two stories above all others:
 
 - **Beijing.** Donald Trump, Xi Jinping and Vladimir Putin shared a stage at the
@@ -15,7 +15,9 @@ The day had two stories above all others:
 - **The Gulf.** Iran attacked Kuwait and Bahrain after US strikes on an island in
   the Strait of Hormuz, widening the war over the Strait.
 
-The plate gives those two the top half. Beneath them: Democrats nominating Hakeem
+Round 2 plate: the Gulf drawn as a map plate, with the launch site inside Iran and three
+trajectories running to Kuwait City and Bahrain, and the Beijing summit carried by the
+headline. The plate gives those two the top half. Beneath them: Democrats nominating Hakeem
 Jeffries for Speaker with the Alaska seat flipping the Senate to 56–44; Nvidia's
 sales soaring while the board keeps Huang out and Waymo pulls its robotaxis off
 US freeways; and critics calling GTA 6 a masterpiece hours before its launch.
